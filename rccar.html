@@ -1,0 +1,160 @@
+<!doctype html>
+<html>
+  <head>
+    <title>RC-CAR</title>
+    <meta charset="utf-8">
+    <style>
+      a:visited{
+        color:purple;
+      }
+      #main_image{
+        float: left;
+      }
+      .header {
+        padding: 30px;
+        text-align: center;
+        background: white;
+      }
+      .header h1 {
+        font-size: 50px;
+      }
+      .topnav {
+        overflow: hidden;
+        background-color: #333;
+      }
+      .topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      .topnav2 {
+        overflow: hidden;
+        background-color: gray;
+      }
+      .topnav2 a {
+
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 5px;
+        text-decoration: none;
+      }
+      .topnav2 a:hover {
+        background-color: #ddd;
+        color: gray;
+      }
+      body {
+        font-family: Arial;
+        padding: 10px;
+        background: #f1f1f1;
+      }
+      .row {
+        float: left;
+        width: 100%;
+        }
+      .card {
+        background-color: white;
+        padding: 20px;
+        margin-top: 20px;
+        }
+      .person{
+        text-align:center;
+        border: 5px solid gray;
+        display :grid;
+        gap: 10px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows:auto auto;
+        }
+      .rccar{
+        -webkit-transform: rotate(90deg);
+      }
+      .footer {
+        padding: 10px;
+        text-align: center;
+        background: #ddd;
+        margin-top: 20px;
+      }
+      .rccarvideo{
+        transform: rotate(270deg);
+      }
+      @media screen and (max-width: 400px) {
+        .topnav a,.topnav2 a{
+          float: none;
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <span class id="main_image">
+        <img src="main.png" width="90px" height="25px">
+      </span>
+      <h1>PROJECT</h1>
+      <strong><p>RC-CAR</p></strong>
+    </div>
+    <div class="topnav">
+      <a href="index.html">HOME</a>
+      <a href="simulation.html" style="background-color: #ddd; color: black;">PROJECT</a>
+      <a href="srobot.html">S-ROBOT(Club)</a>
+      <a href="cdp.html">CDP</a>
+      <a href="qna.html" style="float:right; ">QnA</a>
+    </div>
+    <div class="topnav2">
+      <a href="simulation.html">Simulation</a>
+      <a href="manipulator.html">Manipulator</a>
+      <a href="shaft_design.html">Crank-Shaft Design</a>
+      <a href="recar.html"style="background-color: #ddd; color: gray;">RC-Car</a>
+    </div>
+    <div class="row">
+      <div class="card">
+        <img src="open-cv.PNG" style="float:right" width = "100" height="100">
+        <img src="rasberry.PNG" style="float:right" width = "100" height="100">
+        <img src="python.PNG" style="float:right" width = "200" height="80">
+
+        <h2>< 신호등을 인식하는 Smart RC-Car ></h2>
+        <h3>과목 : 인공지능</h3>
+        <div class="person">
+          <div><strong>< RC-Car조립 ></strong></div>
+          <div><strong>< Teachable Machine에서 신호등 학습 ></strong></div>
+          <div><strong>< 학습된 RC-Car 구동 ></strong></div>
+          <div><img src="RC-Car-fix.PNG" width="500" height="350"></div>
+          <div><img src="teach.PNG" width="400" height="350"></div>
+          <div class="rccarvideo">
+            <video width="400" height="400" controls>
+            <source src="RC-Car-play.mp4" type="video/mp4">
+            </video>
+          </div>
+          </div>
+        </div>
+      <div class="card">
+        <img src="open-cv.PNG" style="float:right" width = "100" height="100">
+        <img src="rasberry.PNG" style="float:right" width = "100" height="100">
+        <img src="python.PNG" style="float:right" width = "200" height="80">
+        <h2>< 사람의 얼굴을 인식하는 Smart RC-Car ></h2>
+        <h3>과목 : 마이크로프로세서응용</h3>
+        <div class="person">
+          <div><strong>< 얼굴인식 RC-Car 코드1 ></strong></div>
+          <div><strong>< 얼굴인식 RC-Car 코드2 ></strong></div>
+          <div><strong>< RC-Car 구동결과 ></strong></div>
+          <div><img src="RC-Car-face-code1.PNG" width="400" height="550" ></div>
+          <div><img src="RC-Car-face-code2.PNG" width="400" height="550" ></div>
+          <div><img src="face.PNG"width="450" height="550" ></div>
+        </div>
+      </div>
+      <div class="footer">
+        <h2>contact us</h2>
+        <h5>E-mail : shinyj1127@gmail.com (신예진) / alsk123450@naver.com (최혜영)</h5>
+        <h5><a href="http://robotics.yu.ac.kr/community/"target="_blank" title="로봇기계공학과 홈페이지 바로가기">영남대 로봇기계공학과</a></h5>
+      </div>
+    </div>
+  </body>
+<html>

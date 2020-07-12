@@ -1,0 +1,144 @@
+<!doctype html>
+<html>
+  <head>
+    <title>SHAFT_DESIGN</title>
+    <meta charset="utf-8">
+    <style>
+      a:visited{
+        color:purple;
+      }
+      #main_image{
+        float: left;
+      }
+      .header {
+        padding: 30px;
+        text-align: center;
+        background: white;
+      }
+      .header h1 {
+        font-size: 50px;
+      }
+      .topnav {
+        overflow: hidden;
+        background-color: #333;
+      }
+      .topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      .topnav2 {
+        overflow: hidden;
+        background-color: gray;
+      }
+      .topnav2 a {
+
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 5px;
+        text-decoration: none;
+      }
+      .topnav2 a:hover {
+        background-color: #ddd;
+        color: gray;
+      }
+      body {
+        font-family: Arial;
+        padding: 10px;
+        background: #f1f1f1;
+      }
+      .row {
+        float: left;
+        width: 100%;
+        }
+      .card {
+        background-color: white;
+        padding: 20px;
+        margin-top: 20px;
+        }
+      .person{
+        text-align:center;
+        border: 5px solid gray;
+        display :grid;
+        grid-template-columns: 1fr;
+        }
+      .footer {
+        padding: 10px;
+        text-align: center;
+        background: #ddd;
+        margin-top: 20px;
+      }
+      @media screen and (max-width: 400px) {
+        .topnav a,.topnav2 a {
+          float: none;
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <span class id="main_image">
+        <img src="main.png" width="90px" height="25px">
+      </span>
+      <h1>PROJECT</h1>
+      <p><strong>CRANK-SHAFT DESIGN</strong></p>
+    </div>
+    <div class="topnav">
+      <a href="index.html">HOME</a>
+      <a href="simulation.html" style="background-color: #ddd; color: black;">PROJECT</a>
+      <a href="srobot.html">S-ROBOT(Club)</a>
+      <a href="cdp.html">CDP</a>
+      <a href="qna.html" style="float:right; ">QnA</a>
+    </div>
+    <div class="topnav2">
+      <a href="simulation.html">Simulation</a>
+      <a href="manipulator.html">Manipulator</a>
+      <a href="shaft_design.html"style="background-color: #ddd; color: gray;">Crank-Shaft Design</a>
+      <a href="rccar.html">RC-Car</a>
+    </div>
+    <div class="row">
+      <div class="card">
+        <img src="solid logo.png" style="float:right" height="100">
+        <img src="mathlab-logo.PNG" style="float:right" height="100">
+        <h2>< 자동차 크랭크 축 설계 ></h2>
+        <h3>과목 : 기계요소설계</h3>
+        <div class="person">
+          <div>
+            <strong>< 축 자유물체도 해석 ></strong>
+            <br />
+            <img src="car-FBD.PNG" width="1400" height="250">
+          </div>
+          <div>
+            <br />
+            <strong>< FBD 와 BMD ></strong>
+            <br />
+            <img src="FBD-BMD.PNG"width="1400" height="350" >
+          </div>
+          <div>
+            <strong>< 도출한 지름값들로 축 설계 ></strong>
+            <br />
+            <img src="shaft.PNG" width="500" height="300">
+            <img src="shaft2.PNG" width="500" height="300">
+
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="footer">
+        <h2>contact us</h2>
+        <h5>E-mail : shinyj1127@gmail.com (신예진) / alsk123450@naver.com (최혜영)</h5>
+        <h5><a href="http://robotics.yu.ac.kr/community/"target="_blank" title="로봇기계공학과 홈페이지 바로가기">영남대 로봇기계공학과</a></h5>
+      </div>
+    </div>
+  </body>
+<html>

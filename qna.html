@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+  <head>
+    <title>QnA</title>
+    <meta charset="utf-8">
+    <style>
+      a:visited{
+        color:purple;
+      }
+      #main_image{
+        float: left;
+      }
+      .header {
+        padding: 30px;
+        text-align: center;
+        background: white;
+      }
+      .header h1 {
+        font-size: 50px;
+      }
+      .topnav {
+        overflow: hidden;
+        background-color: #333;
+      }
+      .topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+        .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      body {
+        font-family: Arial;
+        padding: 10px;
+        background: #f1f1f1;
+      }
+      .footer {
+        padding: 10px;
+        text-align: center;
+        background: #ddd;
+        margin-top: 20px;
+      }
+      @media screen and (max-width: 400px) {
+        .topnav a {
+          float: none;
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <span class id="main_image">
+        <img src="main.png" width="90px" height="25px">
+      </span>
+      <h1>QnA</h1>
+      <p><strong>무엇이든 물어보세요.</strong></p>
+    </div>
+    <div class="topnav">
+      <a href="index.html">HOME</a>
+      <a href="simulation.html">PROJECT</a>
+      <a href="srobot.html">S-ROBOT(Club)</a>
+      <a href="cdp.html">CDP</a>
+      <a href="qna.html" style="float:right; background-color: #ddd; color: black;">QnA</a>
+    </div>
+    <p>
+      <div id="disqus_thread"></div>
+      <script>
+      (function() { // DON'T EDIT BELOW THIS LINE
+      var d = document, s = d.createElement('script');
+      s.src = 'https://portfolio-ixw8svfnw6.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+      })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </p>
+    <div class="footer">
+      <h2>contact us</h2>
+      <h5>E-mail : shinyj1127@gmail.com (신예진) / alsk123450@naver.com (최혜영)</h5>
+      <h5><a href="http://robotics.yu.ac.kr/community/"target="_blank" title="로봇기계공학과 홈페이지 바로가기">영남대 로봇기계공학과</a></h5>
+    </div>
+  </body>
+<html>

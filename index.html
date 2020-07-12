@@ -1,0 +1,147 @@
+<!doctype html>
+<html>
+  <head>
+    <title>HOME</title>
+    <meta charset="utf-8">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172147258-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-172147258-1');
+    </script>
+    <style>
+      a:visited{
+        color:purple;
+      }
+      #main_image{
+        float: left;
+      }
+      .header {
+        padding: 30px;
+        text-align: center;
+        background: white;
+      }
+      .header h1 {
+        font-size: 50px;
+      }
+      .topnav {
+        overflow: hidden;
+        background-color: #333;
+      }
+      .topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      body {
+        font-family: Arial;
+        padding: 10px;
+        background: #f1f1f1;
+      }
+      .row {
+        float: left;
+        width: 100%;
+      }
+      .card {
+        background-color: white;
+        padding-top: 10px;
+        padding-left : 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        margin-top: 20px;
+      }
+      .person{
+        border: 5px solid gray;
+        display :grid;
+        gap:40px;
+        grid-template-columns: 150px 1fr;
+        padding:10px;
+      }
+      .footer {
+        padding: 10px;
+        text-align: center;
+        background: #ddd;
+        margin-top: 20px;
+      }
+
+      @media screen and (max-width: 400px) {
+        .topnav a {
+          float: none;
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <span class id="main_image">
+        <img src="main.png" width="90px" height="25px">
+      </span>
+      <h1>PORTFOLIO</h1>
+      <p><strong>영남대학교 로봇기계공학과 신예진, 최혜영</strong></p>
+    </div>
+    <div class="topnav">
+      <a href="index.html" style="background-color: #ddd; color: black;">HOME</a>
+      <a href="simulation.html">PROJECT</a>
+      <a href="srobot.html">S-ROBOT(Club)</a>
+      <a href="cdp.html">CDP</a>
+      <a href="qna.html" style="float:right; ">QnA</a>
+    </div>
+    <div class="row">
+      <div class="card">
+        <h2>< 신예진 ></h2>
+        <h3>소속 : 영남대학교 로봇기계공학과 4학년</h3>
+        <div class="person">
+          <div>
+            <img src="YJ.jpg" width="150px" height="200px">
+          </div>
+          <div>
+            <strong>
+              < 이력사항 >
+              <br>1996.11   대구 출생
+              <br>2015.02   호산고등학교 졸업
+              <br>2017.03   영남대학교 로봇기계공학과 입학
+              <br>
+              <br>< 자격증 >
+              <br>2종 보통 운전면허증
+            </strong>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <h2>< 최혜영 ></h2>
+        <h3>소속 : 영남대학교 로봇기계공학과 4학년</h3>
+        <div class="person">
+          <div>
+            <img src="HY.jpg" width="150px" height="200px">
+          </div>
+          <div>
+            <strong>
+              < 이력사항 >
+              <br>1999.01   대구 출생
+              <br>2017.02   화원고등학교 졸업
+              <br>2017.03   영남대학교 로봇기계공학과 입학
+              <br>
+              <br>< 자격증 >
+              <br>2종 보통 운전면허증
+            </strong>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <h2>contact us</h2>
+        <h5>E-mail : shinyj1127@gmail.com (신예진) / alsk123450@naver.com (최혜영)</h5>
+        <h5><a href="http://robotics.yu.ac.kr/community/"target="_blank" title="로봇기계공학과 홈페이지 바로가기">영남대 로봇기계공학과</a></h5>
+      </div>
+    </div>
+  </body>
+<html>
